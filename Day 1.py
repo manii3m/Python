@@ -1,3 +1,6 @@
+# WE HAVE LEARNED VARIABLES IN THE DAY 1
+
+
 print (" Hello, World! ")
 name = " mayank "
 age = 20
