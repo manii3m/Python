@@ -16,3 +16,5 @@ sort.sort() # sort in ascending order
 print(sort)
 sort.pop(3) # remove the n'th index value
 print(sort)
+sort.remove(44)
+print(sort)
