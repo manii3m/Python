@@ -5,10 +5,10 @@ hindi = int(input("Enter Marks of Hindi : "))
 total = (english+math+hindi) / 300
 total_percentage = total * 100
 
-if ( total_percentage >=40  ):
-    print('Pass in this Year')
+if ( total_percentage >=40 and english >= 33 and hindi >= 33 and math >=33 ):
+    print('Pass in this Year',total)
 else:
-    print('Try Next Year , here is your data given below')
+    print('Try Next Year' ,'Total Percentage', total_percentage , 'here is your data given below')
 
 if ( english >= 33 ):
     print("English : Pass")
